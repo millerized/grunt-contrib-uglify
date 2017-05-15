@@ -12,7 +12,7 @@
 var path = require('path');
 var UglifyJS = require('uglify-es');
 var uriPath = require('uri-path');
-var domprops = require('uglify-js/tools/domprops');
+var domprops = require('uglify-es/tools/domprops');
 
 // Converts \r\n to \n
 function normalizeLf(string) {
